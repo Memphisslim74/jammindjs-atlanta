@@ -1,0 +1,30 @@
+{
+  "source_id": 8730,
+  "source_type": "page",
+  "managed": false,
+  "title": "Charles Tucker",
+  "slug": "charles-tucker",
+  "date": "2022-08-01T02:04:30",
+  "modified": "2022-08-01T02:05:32",
+  "url": "/charles-tucker/",
+  "status": "publish",
+  "author": "Steve Smith",
+  "excerpt": "Coming Soon!",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2022/07/coming-soonpic.png",
+  "featured_image_alt": "",
+  "categories": [],
+  "tags": [],
+  "category_name": "Blog",
+  "category_url": "https://www.jammindjs.net/blog/",
+  "seo_title": "Charles Tucker - JAMMIN' DJs Georgia & Tennessee",
+  "seo_description": "Coming Soon!",
+  "canonical": "https://www.jammindjs.net/charles-tucker/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": "\n\n\t\t\t\t<img loading=\"lazy\" decoding=\"async\" src=\"https://www.jammindjs.net/wp-content/uploads/2022/07/coming-soonpic.png\" alt=\"coming-soonpic\" itemprop=\"image\" height=\"300\" width=\"300\" title=\"coming-soonpic\" onerror=\"this.style.display='none'\"  />\n\t\t\t\t<img decoding=\"async\" src=\"https://www.jammindjs.net/wp-content/plugins/bb-plugin/img/pixel.png\" alt=\"\" itemprop=\"image\" onerror=\"this.style.display='none'\"  />\n\t<h2><center>Coming Soon!</center></h2>\n\n"
+}

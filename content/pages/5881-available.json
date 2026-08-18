@@ -1,0 +1,30 @@
+{
+  "source_id": 5881,
+  "source_type": "page",
+  "managed": false,
+  "title": "Available",
+  "slug": "available",
+  "date": "2021-03-15T18:38:36",
+  "modified": "2021-03-15T18:38:36",
+  "url": "/available/",
+  "status": "publish",
+  "author": "Keith Clark",
+  "excerpt": "",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2023/09/school-Dance-atl.jpg",
+  "featured_image_alt": "",
+  "categories": [],
+  "tags": [],
+  "category_name": "Blog",
+  "category_url": "https://www.jammindjs.net/blog/",
+  "seo_title": "Available - JAMMIN' DJs Georgia & Tennessee",
+  "seo_description": "",
+  "canonical": "https://www.jammindjs.net/available/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": ""
+}

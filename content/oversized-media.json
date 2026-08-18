@@ -1,0 +1,45 @@
+{
+  "maxAssetBytes": 26214400,
+  "assets": [
+    {
+      "publicPath": "/wp-content/uploads/2022/07/JAMMIN-DJs-Lighting-Options-1-5d4112ac6e10e.pdf",
+      "sourceRelative": "2022/07/JAMMIN-DJs-Lighting-Options-1-5d4112ac6e10e.pdf",
+      "originalBytes": 103834373
+    },
+    {
+      "publicPath": "/wp-content/uploads/2020/04/Jammin-TriviaNew-5e842fe53ecba.mp4",
+      "sourceRelative": "2020/04/Jammin-TriviaNew-5e842fe53ecba.mp4",
+      "originalBytes": 90703749
+    },
+    {
+      "publicPath": "/wp-content/uploads/2020/04/2020-Jammin-Mitzvah-Commercial-5e842f980a0f1.mp4",
+      "sourceRelative": "2020/04/2020-Jammin-Mitzvah-Commercial-5e842f980a0f1.mp4",
+      "originalBytes": 69270769
+    },
+    {
+      "publicPath": "/wp-content/uploads/2020/04/Copy-of-Jammin-Sparks-Demo-5e842fba70fae.mp4",
+      "sourceRelative": "2020/04/Copy-of-Jammin-Sparks-Demo-5e842fba70fae.mp4",
+      "originalBytes": 65216529
+    },
+    {
+      "publicPath": "/wp-content/uploads/2020/04/2020-Mitzvah-Photo-Booth-5e894f442c6a8.mp4",
+      "sourceRelative": "2020/04/2020-Mitzvah-Photo-Booth-5e894f442c6a8.mp4",
+      "originalBytes": 58758933
+    },
+    {
+      "publicPath": "/wp-content/uploads/2020/04/JAMMIN-DJs-Wedding2020-demo2-1-5e842ba3a63c0.mp4",
+      "sourceRelative": "2020/04/JAMMIN-DJs-Wedding2020-demo2-1-5e842ba3a63c0.mp4",
+      "originalBytes": 44939097
+    },
+    {
+      "publicPath": "/wp-content/uploads/2020/04/JAMMINSCHO2020DEMO-5e842ffa16c63.mp4",
+      "sourceRelative": "2020/04/JAMMINSCHO2020DEMO-5e842ffa16c63.mp4",
+      "originalBytes": 38201750
+    },
+    {
+      "publicPath": "/wp-content/uploads/2020/04/Wedding-Sparks-Demo-5e84300a50062.mp4",
+      "sourceRelative": "2020/04/Wedding-Sparks-Demo-5e84300a50062.mp4",
+      "originalBytes": 31968159
+    }
+  ]
+}

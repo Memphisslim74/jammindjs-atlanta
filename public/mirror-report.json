@@ -1,0 +1,289 @@
+{
+  "origin": "https://www.jammindjs.net",
+  "generatedAt": "2026-08-18T13:29:12.540Z",
+  "pages": 718,
+  "assets": 5933,
+  "downloaded": 5958,
+  "failures": [
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/01/5317869.92.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/01/5317869.92-300x199.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/01/InvescoJammin-Djs-300x199.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/01/mms_picture-300x225.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/01/rpp-2-300x200.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/01/Dees-Reception-300x225.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/02/Denver-Big-Air-1024x768.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/02/denver-big-air2-1024x768.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/02/Denver-big-air3-1024x767.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/01/rpp-300x200.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/uploads/2011/02/Retro-Night.jpg",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/events/birthday-parties/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/blog/mcgivney-lythberg-wedding/www.myjammindjs.djintelligence.com/availability/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-04-03.xml",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-03-31.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-04-02.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/press-release/press-release-jammin-djs-featured-at-sports-authority-field/www.budlightportparadise.com/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/weddings/wedding-receptions/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-03-16.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-03-28.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-03-13.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-05-06.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-04-14.xml",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/contact",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-03-21.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-index.xml",
+      "error": "Error: HTTP 410"
+    },
+    {
+      "url": "https://www.jammindjs.net/blog/rohald-wedding-della-terra/www.dellaterramountainchateau.com/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-04-20.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-05-04.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-05-01.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/sitemap-goods-2026-04-01.xml",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/a",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/contact/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/references/&lt;a%20href=",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/atlanta-event-dj/a",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/atlanta-dj-service/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/atlanta-corporate-party-audio-rental/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/atlanta-photo-booth/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/atlanta-equipment-rental/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/atlanta-dj/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/atlanta-corporate-dj/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/audio-rental-atlanta-metro/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/atlanta-wedding-dj/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/community-blog/a",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/community-video/a",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/privacy-policy/john@myjammindjs.com",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/bar-mitzvah/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/bars/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/dj-service/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/communities/a",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/events/a",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/event-archive/a",
+      "error": "Error: HTTP 502"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/blog/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/nightly-entertainment/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/event-dj/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/community-gallery/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/photo-booth-rental/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/georgia-photo-booth-rental/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/lighting-rental-atlanta-metro/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/news/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/mitzvah/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/the-disc-jockeys/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/trivia/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/press-release/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/wedding-lighting-rental/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/silent-disco/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/wedding-sound-rental/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/videos/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/category/wedding-djs/a",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "url": "https://www.jammindjs.net/wp-content/plugins/bootstrap-shortcodes/images/glyphicons-halflings-white.png",
+      "error": "Error: HTTP 404"
+    }
+  ]
+}

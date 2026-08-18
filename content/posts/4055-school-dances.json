@@ -1,0 +1,36 @@
+{
+  "source_id": 4055,
+  "source_type": "post",
+  "managed": false,
+  "title": "School Dances",
+  "slug": "school-dances",
+  "date": "2016-06-13T14:02:38",
+  "modified": "2016-06-13T14:02:38",
+  "url": "/videos/school-dances/",
+  "status": "publish",
+  "author": "madwire",
+  "excerpt": "This is a great video for any of your school related events. Let JAMMIN’ DJs make your event an unforgettable one!",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2015/03/cta-2.jpg",
+  "featured_image_alt": "A group of people at a party giving thumbs up.",
+  "categories": [
+    {
+      "name": "Videos",
+      "slug": "videos",
+      "link": "https://www.jammindjs.net/category/videos/"
+    }
+  ],
+  "tags": [],
+  "category_name": "Videos",
+  "category_url": "https://www.jammindjs.net/category/videos/",
+  "seo_title": "School Dances - JAMMIN' DJs Georgia & Tennessee",
+  "seo_description": "This is a great video for any of your school related events. Let JAMMIN’ DJs make your event an unforgettable one!",
+  "canonical": "https://www.jammindjs.net/videos/school-dances/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": "<p><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Trp7U17EfkY\" frameborder=\"0\" allowfullscreen></iframe><br />\nThis is a great video for any of your school related events. Let JAMMIN&#8217; DJs make your event an unforgettable one!</p>\n"
+}

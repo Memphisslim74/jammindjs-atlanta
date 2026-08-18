@@ -1,0 +1,30 @@
+{
+  "source_id": 4800,
+  "source_type": "page",
+  "managed": false,
+  "title": "Employment",
+  "slug": "employment",
+  "date": "2016-06-13T14:02:38",
+  "modified": "2016-06-13T14:02:38",
+  "url": "/employment/",
+  "status": "publish",
+  "author": "madwire",
+  "excerpt": "",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2023/09/school-Dance-atl.jpg",
+  "featured_image_alt": "",
+  "categories": [],
+  "tags": [],
+  "category_name": "Blog",
+  "category_url": "https://www.jammindjs.net/blog/",
+  "seo_title": "Apply for DJ Position",
+  "seo_description": "Want to be a world class DJ with the most premier & Professional DJ company in the US? Apply today for your chance for an audition! Have questions? Call 678-701-5267 (JAMS)",
+  "canonical": "https://www.jammindjs.net/employment/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": ""
+}

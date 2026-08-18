@@ -1,0 +1,30 @@
+{
+  "source_id": 465,
+  "source_type": "page",
+  "managed": false,
+  "title": "Galleries",
+  "slug": "galleries",
+  "date": "2016-06-13T14:02:38",
+  "modified": "2016-06-13T14:02:38",
+  "url": "/galleries/",
+  "status": "publish",
+  "author": "madwire",
+  "excerpt": "",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2023/09/school-Dance-atl.jpg",
+  "featured_image_alt": "",
+  "categories": [],
+  "tags": [],
+  "category_name": "Blog",
+  "category_url": "https://www.jammindjs.net/blog/",
+  "seo_title": "Wedding DJ Atlanta Galleries| Atlanta Entertainment Pictures",
+  "seo_description": "",
+  "canonical": "https://www.jammindjs.net/galleries/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": ""
+}

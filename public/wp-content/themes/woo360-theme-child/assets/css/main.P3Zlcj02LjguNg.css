@@ -1,0 +1,32 @@
+/* disable the search button on product search module, since return can just be used instead */
+.widget_product_search button {
+  display: none;
+}
+
+/* fix for bootstrap4 conflicts with woocom checkout/account layout */
+.woocommerce .col-1,
+.woocommerce .col-2 {
+  max-width: none;
+}
+
+/* fix for scriptless social sharing button text color */
+.scriptlesssocialsharing-buttons a {
+  color: #fff !important;
+}
+
+.fl-social-icons .fl-icon-houzz{
+	font-family: FontAwesome;
+	font-size: 17px;
+}
+.fl-icon-houzz-circle:before {
+	content: '\f27c';
+}
+.fl-icon-houzz-regular:before {
+	content: '\f27c';
+}
+.fl-icon-houzz.fl-icon-color-branded {
+	color: #55a32a;
+}
+.fl-icon-houzz.fl-icon-color-branded:hover {
+	color: #5FB82E;
+}

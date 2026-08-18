@@ -1,0 +1,30 @@
+{
+  "source_id": 310,
+  "source_type": "page",
+  "managed": false,
+  "title": "Blog",
+  "slug": "blog",
+  "date": "2016-06-13T14:02:38",
+  "modified": "2016-06-13T14:02:38",
+  "url": "/blog/",
+  "status": "publish",
+  "author": "madwire",
+  "excerpt": "Replace this content with your own content. Content should be relevant, unique and written with the goal of providing the reader the type of information they are looking for while motivating them to take action. It’s also important to make sure your content has good usage of SEO rich keywords but written in a creative,…",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2023/09/school-Dance-atl.jpg",
+  "featured_image_alt": "",
+  "categories": [],
+  "tags": [],
+  "category_name": "Blog",
+  "category_url": "https://www.jammindjs.net/blog/",
+  "seo_title": "Blog - JAMMIN' DJs Georgia & Tennessee",
+  "seo_description": "Replace this content with your own content.",
+  "canonical": "https://www.jammindjs.net/blog/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": "<p>Replace this content with your own content. Content should be relevant, unique and written with the goal of providing the reader the type of information they are looking for while motivating them to take action. It&#8217;s also important to make sure your content has good usage of SEO rich keywords but written in a creative, reader friendly way. Remember, your website is your 24/7 sales person. It never calls in sick, can sell an unlimited number of people at the same time with the exact same, perfect pitch. Therefore, putting time into writing strong content is key to your digital success.</p>\n"
+}

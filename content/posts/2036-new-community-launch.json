@@ -1,0 +1,62 @@
+{
+  "source_id": 2036,
+  "source_type": "post",
+  "managed": false,
+  "title": "New Community Launch",
+  "slug": "new-community-launch",
+  "date": "2016-06-13T14:02:38",
+  "modified": "2016-06-13T14:02:38",
+  "url": "/community-blog/new-community-launch/",
+  "status": "publish",
+  "author": "madwire",
+  "excerpt": "Welcome to our new Community section. We are excited to contribute back to our community. This area is still under construction. We will be updating this section for the next week or so and hope to have it completed then. Thank you for letting JAMMIN’ DJs be part of your special events that help to…",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2023/09/school-Dance-atl.jpg",
+  "featured_image_alt": "",
+  "categories": [
+    {
+      "name": "Community Blog",
+      "slug": "community-blog",
+      "link": "https://www.jammindjs.net/category/community-blog/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "charity",
+      "slug": "charity",
+      "link": "https://www.jammindjs.net/tag/charity/"
+    },
+    {
+      "name": "community group",
+      "slug": "community-group",
+      "link": "https://www.jammindjs.net/tag/community-group/"
+    },
+    {
+      "name": "Community Service",
+      "slug": "community-service",
+      "link": "https://www.jammindjs.net/tag/community-service/"
+    },
+    {
+      "name": "donations",
+      "slug": "donations",
+      "link": "https://www.jammindjs.net/tag/donations/"
+    },
+    {
+      "name": "non-profit",
+      "slug": "non-profit",
+      "link": "https://www.jammindjs.net/tag/non-profit/"
+    }
+  ],
+  "category_name": "Community Blog",
+  "category_url": "https://www.jammindjs.net/category/community-blog/",
+  "seo_title": "New Community Launch - JAMMIN' DJs Georgia & Tennessee",
+  "seo_description": "Welcome to our new Community section. We are excited to contribute back to our community. This area is still under construction. We will be updating this section for the next week or so and hope to have it completed then. Thank you for letting JAMMIN’ DJs be part of your special events that help to…",
+  "canonical": "https://www.jammindjs.net/community-blog/new-community-launch/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": "<p>Welcome to our new Community section. We are excited to contribute back to our community. This area is still under construction. We will be updating this section for the next week or so and hope to have it completed then. Thank you for letting JAMMIN&#8217; DJs be part of your special events that help to raise money for our community!</p>\n"
+}

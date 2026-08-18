@@ -1,0 +1,36 @@
+{
+  "source_id": 182,
+  "source_type": "post",
+  "managed": false,
+  "title": "Wedding Demo",
+  "slug": "wedding-demo",
+  "date": "2016-06-13T14:02:38",
+  "modified": "2016-06-13T14:02:38",
+  "url": "/videos/wedding-demo/",
+  "status": "publish",
+  "author": "madwire",
+  "excerpt": "This is a demo video all of you wedding fans will love. Don’t trust your wedding music to anyone else, let JAMMIN’ DJs make it a time to remember.",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2015/03/Fletcher-732.jpg",
+  "featured_image_alt": "A bride and groom sharing their first dance in a warehouse.",
+  "categories": [
+    {
+      "name": "Videos",
+      "slug": "videos",
+      "link": "https://www.jammindjs.net/category/videos/"
+    }
+  ],
+  "tags": [],
+  "category_name": "Videos",
+  "category_url": "https://www.jammindjs.net/category/videos/",
+  "seo_title": "Wedding Demo - JAMMIN' DJs Georgia & Tennessee",
+  "seo_description": "This is a demo video all of you wedding fans will love. Don’t trust your wedding music to anyone else, let JAMMIN’ DJs make it a time to remember.",
+  "canonical": "https://www.jammindjs.net/videos/wedding-demo/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": "<p><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FMi5aTqKHXE\" frameborder=\"0\" allowfullscreen></iframe><br />\nThis is a demo video all of you wedding fans will love. Don&#8217;t trust your wedding music to anyone else, let JAMMIN&#8217; DJs make it a time to remember.</p>\n"
+}

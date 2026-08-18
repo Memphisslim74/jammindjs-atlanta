@@ -1,0 +1,30 @@
+{
+  "source_id": 8741,
+  "source_type": "page",
+  "managed": false,
+  "title": "Miller Anton",
+  "slug": "miller-anton",
+  "date": "2022-08-01T02:15:41",
+  "modified": "2022-08-01T02:16:40",
+  "url": "/miller-anton/",
+  "status": "publish",
+  "author": "Steve Smith",
+  "excerpt": "Coming Soon",
+  "featured_image": "https://www.jammindjs.net/wp-content/uploads/2022/07/coming-soonpic.png",
+  "featured_image_alt": "",
+  "categories": [],
+  "tags": [],
+  "category_name": "Blog",
+  "category_url": "https://www.jammindjs.net/blog/",
+  "seo_title": "Miller Anton - JAMMIN' DJs Georgia & Tennessee",
+  "seo_description": "Coming Soon",
+  "canonical": "https://www.jammindjs.net/miller-anton/",
+  "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+  },
+  "body_html": "\n\n\t\t\t\t<img loading=\"lazy\" decoding=\"async\" src=\"https://www.jammindjs.net/wp-content/uploads/2022/07/coming-soonpic.png\" alt=\"coming-soonpic\" itemprop=\"image\" height=\"300\" width=\"300\" title=\"coming-soonpic\" onerror=\"this.style.display='none'\"  />\n\t\t\t\t<img decoding=\"async\" src=\"https://www.jammindjs.net/wp-content/plugins/bb-plugin/img/pixel.png\" alt=\"\" itemprop=\"image\" onerror=\"this.style.display='none'\"  />\n\t<h2>Coming Soon</h2>\n\n"
+}
