@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - ".bootstrap/source.zip.part-*"
+      - ".bootstrap/source.ready"
 
 permissions:
   contents: write
