@@ -74,7 +74,15 @@ async function importMediaBatch(request: Request, env: Env): Promise<Response> {
       const key = decodeURIComponent(sourceUrl.pathname.slice(1));
       if (await env.MEDIA.head(key)) { skipped += 1; return; }
 
-      const source = await fetch(sourceUrl, { headers: { "user-agent": "JAMMIN-DJs-R2-Migration/1.0" } });
+      let source = await fetch(sourceUrl, { headers: { "user-agent": "JAMMIN-DJs-R2-Migration/1.0" } });
+      if (source.status === 404) {
+        const fallbackPath = sourceUrl.pathname.replace(/\.P[A-Za-z0-9_-]+(?=\.[^./]+$)/, "");
+        if (fallbackPath !== sourceUrl.pathname) {
+          source = await fetch(new URL(fallbackPath, WORDPRESS_ORIGIN), {
+            headers: { "user-agent": "JAMMIN-DJs-R2-Migration/1.0" },
+          });
+        }
+      }
       if (!source.ok || !source.body) {
         throw new Error("origin returned " + source.status);
       }
