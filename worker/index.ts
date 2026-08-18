@@ -87,13 +87,28 @@ async function importMediaBatch(request: Request, env: Env): Promise<Response> {
         throw new Error("origin returned " + source.status);
       }
 
-      await env.MEDIA.put(key, source.body, {
-        httpMetadata: {
-          contentType: source.headers.get("content-type") || undefined,
-          cacheControl: "public, max-age=31536000, immutable",
-        },
-        customMetadata: { source: sourceUrl.href },
-      });
+      const contentLength = Number(source.headers.get("content-length"));
+      let uploadBody: ReadableStream | ArrayBuffer;
+      let streamComplete: Promise<void> = Promise.resolve();
+
+      if (Number.isFinite(contentLength) && contentLength >= 0) {
+        const fixed = new FixedLengthStream(contentLength);
+        streamComplete = source.body.pipeTo(fixed.writable);
+        uploadBody = fixed.readable;
+      } else {
+        uploadBody = await source.arrayBuffer();
+      }
+
+      await Promise.all([
+        env.MEDIA.put(key, uploadBody, {
+          httpMetadata: {
+            contentType: source.headers.get("content-type") || undefined,
+            cacheControl: "public, max-age=31536000, immutable",
+          },
+          customMetadata: { source: sourceUrl.href },
+        }),
+        streamComplete,
+      ]);
       imported += 1;
     } catch (error) {
       failed += 1;
