@@ -37,8 +37,8 @@ async function run(){
     const result=await response.json(); total=result.total; offset=result.next;
     imported+=result.imported; skipped+=result.skipped; failed+=result.failed;
     progress.max=total; progress.value=offset;
-    status.textContent=offset+' / '+total+'\nImported: '+imported+'\nAlready present: '+skipped+'\nFailed: '+failed;
-    if(offset<total) setTimeout(run,150); else status.textContent+='\n\nCOMPLETE — send this result back to ChatGPT.';
+    status.textContent=offset+' / '+total+'\\nImported: '+imported+'\\nAlready present: '+skipped+'\\nFailed: '+failed;
+    if(offset<total) setTimeout(run,150); else status.textContent+='\\n\\nCOMPLETE — send this result back to ChatGPT.';
   } catch(error) { status.textContent='Retrying after error: '+error; setTimeout(run,2000); }
 }
 run();
