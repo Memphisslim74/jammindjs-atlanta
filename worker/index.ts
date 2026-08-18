@@ -16,6 +16,76 @@ interface Env {
 }
 
 const MEDIA_PREFIX = "/wp-content/uploads/";
+const MEDIA_IMPORT_ROUTE = "/__r2-import-8d5e4c2a7f19";
+const MEDIA_IMPORT_MANIFEST = "/_media-import-manifest.json";
+const WORDPRESS_ORIGIN = "https://www.jammindjs.net";
+
+function mediaImporterPage(): Response {
+  const route = JSON.stringify(MEDIA_IMPORT_ROUTE);
+  return new Response(`<!doctype html>
+<html><head><meta charset="utf-8"><title>JAMMIN' DJs media import</title>
+<style>body{font:16px system-ui;max-width:760px;margin:48px auto;padding:0 20px}progress{width:100%;height:28px}pre{white-space:pre-wrap}</style></head>
+<body><h1>R2 media import</h1><p>Keep this tab open until it says complete.</p>
+<progress id="progress" value="0" max="1"></progress><pre id="status">Starting…</pre>
+<script>
+const route=${route}; let offset=0, total=1, imported=0, skipped=0, failed=0;
+const status=document.querySelector('#status'), progress=document.querySelector('#progress');
+async function run(){
+  try {
+    const response=await fetch(route,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({offset,limit:8})});
+    if(!response.ok) throw new Error(await response.text());
+    const result=await response.json(); total=result.total; offset=result.next;
+    imported+=result.imported; skipped+=result.skipped; failed+=result.failed;
+    progress.max=total; progress.value=offset;
+    status.textContent=offset+' / '+total+'\nImported: '+imported+'\nAlready present: '+skipped+'\nFailed: '+failed;
+    if(offset<total) setTimeout(run,150); else status.textContent+='\n\nCOMPLETE — send this result back to ChatGPT.';
+  } catch(error) { status.textContent='Retrying after error: '+error; setTimeout(run,2000); }
+}
+run();
+</script></body></html>`, { headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" } });
+}
+
+async function importMediaBatch(request: Request, env: Env): Promise<Response> {
+  if (request.method === "GET") return mediaImporterPage();
+  if (request.method !== "POST") return new Response("Method Not Allowed", { status: 405 });
+
+  const payload = await request.json<{ offset?: number; limit?: number }>().catch(() => ({}));
+  const offset = Math.max(0, Number(payload.offset) || 0);
+  const limit = Math.min(8, Math.max(1, Number(payload.limit) || 8));
+  const manifestResponse = await env.ASSETS.fetch(new Request(new URL(MEDIA_IMPORT_MANIFEST, request.url)));
+  if (!manifestResponse.ok) return new Response("Media manifest unavailable", { status: 500 });
+  const paths = await manifestResponse.json<string[]>();
+  const batch = paths.slice(offset, offset + limit);
+  let imported = 0;
+  let skipped = 0;
+  let failed = 0;
+
+  await Promise.all(batch.map(async (mediaPath) => {
+    const sourceUrl = new URL(mediaPath, WORDPRESS_ORIGIN);
+    const key = decodeURIComponent(sourceUrl.pathname.slice(1));
+    if (await env.MEDIA.head(key)) { skipped += 1; return; }
+
+    const source = await fetch(sourceUrl, { headers: { "user-agent": "JAMMIN-DJs-R2-Migration/1.0" } });
+    if (!source.ok || !source.body) { failed += 1; return; }
+
+    await env.MEDIA.put(key, source.body, {
+      httpMetadata: {
+        contentType: source.headers.get("content-type") || undefined,
+        cacheControl: "public, max-age=31536000, immutable",
+      },
+      customMetadata: { source: sourceUrl.href },
+    });
+    imported += 1;
+  }));
+
+  return Response.json({
+    total: paths.length,
+    next: Math.min(paths.length, offset + batch.length),
+    imported,
+    skipped,
+    failed,
+  }, { headers: { "cache-control": "no-store" } });
+}
 
 async function serveMedia(request: Request, env: Env): Promise<Response> {
   if (request.method !== "GET" && request.method !== "HEAD") {
@@ -76,6 +146,10 @@ interface ExecutionContext {
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+
+    if (url.pathname === MEDIA_IMPORT_ROUTE) {
+      return importMediaBatch(request, env);
+    }
 
     if (url.pathname.startsWith(MEDIA_PREFIX)) {
       return serveMedia(request, env);
