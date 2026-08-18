@@ -1,0 +1,139 @@
+media:
+  input: public/wp-content/uploads/cms
+  output: /wp-content/uploads/cms
+
+content:
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: content/posts
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: title
+      fields: [title, date, status, managed]
+      sort: date
+      order: desc
+      search: [title, slug, excerpt, body_html]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: slug
+        label: URL Slug
+        type: string
+        required: true
+      - name: date
+        label: Publish Date
+        type: date
+        options:
+          time: true
+        required: true
+      - name: modified
+        label: Last Modified
+        type: date
+        options:
+          time: true
+      - name: url
+        label: Existing URL Path
+        type: string
+        description: Keep the current path for imported posts. New posts normally use /blog/your-slug/.
+      - name: status
+        label: Status
+        type: select
+        options:
+          values: [draft, publish]
+        default: draft
+        required: true
+      - name: managed
+        label: Build from CMS content
+        type: boolean
+        default: true
+        description: Imported posts stay false until edited. New posts should remain true.
+      - name: author
+        label: Author
+        type: string
+        default: Jammin Blogger
+      - name: category_name
+        label: Category Name
+        type: string
+        default: Blog
+      - name: category_url
+        label: Category URL
+        type: string
+        default: /blog/
+      - name: excerpt
+        label: Excerpt
+        type: text
+      - name: featured_image
+        label: Featured Image
+        type: image
+      - name: featured_image_alt
+        label: Featured Image Alt Text
+        type: string
+      - name: seo_title
+        label: SEO Title
+        type: string
+      - name: seo_description
+        label: SEO Description
+        type: text
+      - name: canonical
+        label: Canonical URL
+        type: string
+      - name: body_html
+        label: Post Content
+        type: rich-text
+        options:
+          format: html
+        required: true
+
+  - name: site_pages
+    label: Primary Page HTML
+    type: group
+    items:
+      - name: home_html
+        label: Home
+        type: file
+        path: public/index.html
+        format: code
+      - name: about_html
+        label: About JAMMIN' DJs
+        type: file
+        path: public/company/about-us/index.html
+        format: code
+      - name: weddings_html
+        label: Weddings
+        type: file
+        path: public/atlanta-wedding-dj/index.html
+        format: code
+      - name: photo_booth_html
+        label: Photo Booth
+        type: file
+        path: public/atlanta-photo-booth-rental/index.html
+        format: code
+      - name: mitzvah_html
+        label: Bar & Bat Mitzvahs
+        type: file
+        path: public/batbar-mitzvah-packages/index.html
+        format: code
+      - name: corporate_html
+        label: Corporate Events
+        type: file
+        path: public/atlanta-corporate-event-dj/index.html
+        format: code
+      - name: schools_html
+        label: School Dances
+        type: file
+        path: public/atlanta-school-dance-dj/index.html
+        format: code
+      - name: blog_html
+        label: Blog Index
+        type: file
+        path: public/blog/index.html
+        format: code
+      - name: privacy_html
+        label: Privacy Policy
+        type: file
+        path: public/privacy-policy/index.html
+        format: code
