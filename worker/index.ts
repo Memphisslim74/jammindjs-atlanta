@@ -65,6 +65,11 @@ async function importMediaBatch(request: Request, env: Env): Promise<Response> {
 
   await Promise.all(batch.map(async (mediaPath) => {
     try {
+      if (/\.(?:mp4|m4v|mov|webm)$/i.test(mediaPath)) {
+        skipped += 1;
+        return;
+      }
+
       const sourceUrl = new URL(mediaPath, WORDPRESS_ORIGIN);
       const key = decodeURIComponent(sourceUrl.pathname.slice(1));
       if (await env.MEDIA.head(key)) { skipped += 1; return; }
